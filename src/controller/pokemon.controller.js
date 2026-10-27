@@ -1,4 +1,3 @@
-import { router } from 'express';
 import pokemonService from '../service/pokemon.service.js';
 
 class pokemonController {
@@ -59,4 +58,4 @@ async deletePokemon(req,res) {
 
 }
 
-export default pokemonRouter = new pokemonController()
+export const pokemonController = new pokemonController()
